@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    background-image: url(https://soulcodeacademy.org/assets/images/logo/light-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed, scroll;
+    background-size: 1500px 500px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 8px;
+    background-image: url(https://images.unsplash.com/photo-1645655892437-c5149679d223?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
