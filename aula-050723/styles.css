@@ -37,3 +37,25 @@
     width: 200px;
     padding: 12px;
 }
+
+
+.container-2 {
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+
+.coluna1 {
+    background-color: tan;
+    /* width: 200px; */
+    flex: 2;
+}
+.coluna2 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.coluna3 {
+    background-color: tomato;
+    flex: 1;
+}
