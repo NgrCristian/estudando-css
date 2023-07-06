@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+}
+
+
+@media screen and (max-width: 599px) {
+    body{
+        background-color: red;
+        font-family: monospace;
+    }
+}
+
+@media screen and (min-widht:600px) and (max-width: 1000px) {
+    body {
+        background-color:aquamarine ;
+    }
+}

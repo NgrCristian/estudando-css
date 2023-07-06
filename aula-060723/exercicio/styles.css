@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: teal;
+}
+
+.sec-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec-card{
+    background-color: rgb(190, 251, 196);
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+    align-items: center;
+}
+
+.sec-card img{
+    width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .sec-card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .sec-card img{
+        width: 450px;
+        padding: 30px 0px 0px 0px;
+    }
+    .sec-card p{
+        padding: 15px;
+    }
+}
